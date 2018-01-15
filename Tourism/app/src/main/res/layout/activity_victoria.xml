@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tamoghna.tourism.VictoriaActivity">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView7"
+        android:layout_alignEnd="@+id/textView10"
+        android:layout_marginBottom="67dp"
+        android:text="The Victoria Memorial is a large marble building in Kolkata , West Bengal, India, which was built between 1906 and 1921. It is dedicated to the memory of Queen Victoria (1819–1901) and is now a museum and tourist destination under the auspices of the Ministry of Culture.[2] The memorial lies on the maidan (grounds) by the bank of the Hooghly River, near Jawaharlal Nehru road."
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="196dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView8"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="11dp"
+        android:text="Helpline: "
+        android:textColor="#ff0000"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="359dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="40dp"
+        android:text="For more details visit "
+        android:textColor="#0080ff"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="402dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView7"
+        android:layout_alignBottom="@+id/textView7"
+        android:layout_toEndOf="@+id/textView7"
+        android:text="9475362289"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="359dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView8"
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_toEndOf="@+id/textView8"
+        android:text="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="402dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="385dp"
+        android:layout_height="200dp"
+        android:layout_alignEnd="@+id/textView10"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/victoria" />
+
+</RelativeLayout>

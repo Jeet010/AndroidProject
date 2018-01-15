@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="in.rcplindia.www.kiitwtapp.AlertDialogActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:onClick="simpleDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simple" />
+    <Button
+        android:id="@+id/button1"
+        android:onClick="singleChoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Single Choice" />
+    <Button
+        android:id="@+id/button2"
+        android:onClick="multiChoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Multi Choice" />
+
+    <Button
+        android:id="@+id/button5"
+        android:onClick="customDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom Dialog" />
+</LinearLayout>

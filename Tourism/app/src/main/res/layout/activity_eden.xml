@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tamoghna.tourism.EdenActivity">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView12"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="22dp"
+        android:text="Eden Gardens is a cricket ground in Kolkata, India established in 1864. It is the home venue of the Bengal cricket team and the IPL franchise cricket team Kolkata Knight Riders, and is also a venue for Test, ODI and T20I matches of the India national cricket team.[3] Between 1987 and 2011, Eden Gardens had a seating capacity of 94,000. The stadium currently has a capacity of 68,000 [1] and is the largest cricket stadium in India and the second-largest cricket stadium in the world." />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView14"
+        android:textColor="#ff0000"
+        android:layout_alignBottom="@+id/textView14"
+        android:layout_alignParentStart="true"
+        android:text="Helpline: " />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textColor="#0080ff"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="46dp"
+        android:text="For more details visit " />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView15"
+        android:layout_marginBottom="15dp"
+        android:layout_marginStart="13dp"
+        android:layout_toEndOf="@+id/textView12"
+        android:text="9475362289" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView13"
+        android:layout_alignBottom="@+id/textView13"
+        android:layout_toEndOf="@+id/textView14"
+        android:text="https://en.wikipedia.org/wiki/Eden_Gardens" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="385dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/eden" />
+</RelativeLayout>
